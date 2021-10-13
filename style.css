@@ -1,0 +1,49 @@
+ body{
+     background-color: pink;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-self: center;
+ }
+ #main {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.container {
+    border: 8px solid white;
+    border-radius: 10px;
+    width: 500px;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: skyblue;
+    padding: 1rem;
+}
+#title {
+    font-size: 3rem;
+    margin-bottom: 0;
+    color: white;
+}
+#counter {
+    font-size: 2rem;
+    color: white;
+}
+button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    background-color: pink;
+    border: none;
+    border-radius: 10px;
+    color: blue;
+    font-weight: bold;
+    margin: 1rem;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #db579a;
+    color: white;
+}
+
